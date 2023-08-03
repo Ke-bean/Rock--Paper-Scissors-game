@@ -6,30 +6,30 @@ function getComputerChoice(rock, paper, scissor){
     return computerChoice;
 }
 let playerSelection = prompt("Enter you choice");
-// let computerSelection = getComputerChoice("rock", "paper", "scissor");
-// // A function responsible for showing rounds played btn computer and a player.
-// function playRound(getComputerChoice, playerSelection){
-//     if(getComputerChoice == "rock" && playerSelection.toLowerCase() == "paper"){
-//         return "You win! Paper beats Rock.";
-//     }
-//     else if(getComputerChoice == "paper" && playerSelection.toLowerCase() == "rock"){
-//         return "You loose! Paper beats Rock.";
-//     }
-//     else if(getComputerChoice == "rock" && playerSelection.toLowerCase() == "scissor"){
-//         return "You loose! Rock beats Scissor.";
-//     }
-//     else if(getComputerChoice == "scissor" && playerSelection.toLowerCase() == "rock"){
-//         return "You win! Rock beats Scissor.";
-//     }
-//     else if(getComputerChoice == "scissor" && playerSelection.toLowerCase() == "paper"){
-//         return "You loose! Scissor beats Paper.";
-//     }
-//     else if(getComputerChoice == "paper" && playerSelection.toLowerCase() == "scissor"){
-//         return "You win! Scissor beats paper.";
-//     }else{
-//         return "You both have the same guess! try again.";
-//     }
-// }
+let computerSelection = getComputerChoice("rock", "paper", "scissor");
+// A function responsible for showing rounds played btn computer and a player.
+function playRound(getComputerChoice, playerSelection){
+    if(getComputerChoice == "rock" && playerSelection.toLowerCase() == "paper"){
+        return "You win! Paper beats Rock.";
+    }
+    else if(getComputerChoice == "paper" && playerSelection.toLowerCase() == "rock"){
+        return "You loose! Paper beats Rock.";
+    }
+    else if(getComputerChoice == "rock" && playerSelection.toLowerCase() == "scissor"){
+        return "You loose! Rock beats Scissor.";
+    }
+    else if(getComputerChoice == "scissor" && playerSelection.toLowerCase() == "rock"){
+        return "You win! Rock beats Scissor.";
+    }
+    else if(getComputerChoice == "scissor" && playerSelection.toLowerCase() == "paper"){
+        return "You loose! Scissor beats Paper.";
+    }
+    else if(getComputerChoice == "paper" && playerSelection.toLowerCase() == "scissor"){
+        return "You win! Scissor beats paper.";
+    }else{
+        return "You both have the same guess! try again.";
+    }
+}
 // function game(){
 //     let winner = 0;
 //     let looser = 0;
