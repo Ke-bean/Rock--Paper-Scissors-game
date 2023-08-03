@@ -5,7 +5,7 @@ function getComputerChoice(rock, paper, scissor){
     let computerChoice = [...arguments][randomChoice];
     return computerChoice;
 }
-// let playerSelection = prompt("Enter you choice");
+let playerSelection = prompt("Enter you choice");
 // let computerSelection = getComputerChoice("rock", "paper", "scissor");
 // // A function responsible for showing rounds played btn computer and a player.
 // function playRound(getComputerChoice, playerSelection){
